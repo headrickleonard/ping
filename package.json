@@ -1,0 +1,62 @@
+{
+  "name": "ping",
+  "version": "1.0.0",
+  "description": "A powerful, feature-rich notification system for React applications",
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "notifications",
+    "toast",
+    "alert",
+    "notification-system",
+    "react-component",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ping"
+  },
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:lib": "vite build --config vite.config.lib.js",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build:lib"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.294.0",
+    "react-markdown": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "terser": "^5.36.0",
+    "vite": "^5.0.0"
+  }
+}

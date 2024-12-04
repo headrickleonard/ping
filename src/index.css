@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes bounce-once {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25%);
+  }
+}
+
+.animate-bounce-once {
+  animation: bounce-once 0.5s ease-in-out;
+}
+
+/* Custom Animations */
+@keyframes bounce-custom {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes slide-custom {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-custom {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes shake-custom {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-5px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes flash-custom {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0.5;
+  }
+}
+
+/* Animation Classes */
+.animate-bounce-custom {
+  animation: bounce-custom 1s ease-in-out;
+}
+
+.animate-slide-custom {
+  animation: slide-custom 0.3s ease-out;
+}
+
+.animate-fade-custom {
+  animation: fade-custom 0.3s ease-in-out;
+}
+
+.animate-shake-custom {
+  animation: shake-custom 0.5s ease-in-out;
+}
+
+.animate-flash-custom {
+  animation: flash-custom 1s ease-in-out;
+}
+
+/* Hover pause animation */
+.pause-on-hover:hover {
+  animation-play-state: paused;
+}

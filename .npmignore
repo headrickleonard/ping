@@ -1,0 +1,27 @@
+# Source
+src/
+public/
+
+# Config files
+.eslintrc.cjs
+.gitignore
+vite.config.js
+vite.config.lib.js
+postcss.config.js
+tailwind.config.js
+
+# Development files
+node_modules/
+.vscode/
+.idea/
+*.log
+.DS_Store
+
+# Test files
+__tests__/
+coverage/
+*.test.js
+*.spec.js
+
+# Build files
+dist/demo/
