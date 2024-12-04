@@ -1,4 +1,4 @@
-# React Notifications Library
+# React-Ping, a powerful notification library for React applications
 
 A powerful, feature-rich notification system for React applications with advanced customization and interaction capabilities.
 

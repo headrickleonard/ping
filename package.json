@@ -1,8 +1,8 @@
 {
   "name": "ping",
   "version": "1.0.0",
-  "description": "A powerful, feature-rich notification system for React applications",
-  "author": "Your Name",
+  "description": "A powerful, feature-rich notification library for React applications",
+  "author": "Headrick Leonard",
   "license": "MIT",
   "keywords": [
     "react",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ping"
+    "url": "https://github.com/headrickleonard/ping"
   },
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
