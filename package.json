@@ -1,6 +1,6 @@
 {
-  "name": "react-ping",
-  "version": "1.0.0",
+  "name": "react-notifire",
+  "version": "1.0.1",
   "description": "A powerful, feature-rich notification library for React applications",
   "author": "Headrick Leonard",
   "license": "MIT",

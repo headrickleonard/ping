@@ -1,4 +1,4 @@
-# React-Ping, a powerful notification library for React applications
+# React-Notifire, a powerful notification library for React applications
 
 A powerful, feature-rich notification system for React applications with advanced customization and interaction capabilities.
 
@@ -19,16 +19,16 @@ A powerful, feature-rich notification system for React applications with advance
 ## Installation
 
 ```bash
-npm install ping
+npm install react-notifire
 # or
-yarn add ping
+yarn add react-notifire
 ```
 
 ## Quick Start
 
 ```jsx
-import { NotificationProvider, useNotification } from 'ping';
-import 'ping/dist/index.css';
+import { NotificationProvider, useNotification } from 'react-notifire';
+import 'react-notifire/dist/index.css';
 
 // Wrap your app with NotificationProvider
 function App() {
